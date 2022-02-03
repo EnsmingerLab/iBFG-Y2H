@@ -83,22 +83,9 @@ CEP55	TSG101
 AP2B1	LDLRAP1
 CNOT7	BTG1
 CCND3	CDK6
-LPG0944	LPG0945
-LPG0945	LPG0944
-LPG2298	LPG2344
-LPG2149	LPG2148
-LPG0926	LPG1803
-LPG2137	LPG1972
-ICMQ	ICMR
-ICMR	ICMQ
-ICMS	ICMW
-ICMW	ICMS
-ICMS	LVGA
-ICMG	ICMG
-LPG2718	LPG2718
-LPG0439	LPG0439
-LPG2975	LPG0130
-LPG0390	Lpg2149
+....
+....
+....
 </pre>
 
 <b>AD_Barcodes_V4.csv (which is actually in tab delim format). DB Is identical. These gene names should not have _ seperators if possible, I think it will causes issues. </b>
