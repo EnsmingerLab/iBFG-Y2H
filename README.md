@@ -83,12 +83,12 @@ Index	Plate	Well384	Group	Kiloseq Plate	Well384	Well96	Name	Locus	ORF_BC_count	O
 1179	AD_Platinum_4	B03	G1	AD_Platinum_4	B03	NA	ARL2BP	ARL2BP_BC-3	3	100	1	3	CTAAAGAATAGAGGAATTCATACCC	100	1	TATGTTACCGAAGCATTGGCAGAGG	100	1
 </pre>
   </p>
-  <h3 id='Access'>Adjusting Param.py</h3>
-  <p>Now you will have to tell the param.py script what your directory structure looks like by editing it with vi param.py from within the roth lab cluster.
-<pre>
-	import numpy as np
+Adjusting Param.py
+Now you will have to tell the param.py script what your directory structure looks like by editing it with vi param.py from within the roth lab cluster.
 
-###################################
+
+#import numpy as np
+
 
 # If you want to do alignments
 # Set this to True
@@ -98,7 +98,6 @@ ALIGNMENT = True
 # Set this to True
 READ_COUNT = True
 
-##################################
 
 # for score optimization
 
