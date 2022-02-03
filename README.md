@@ -190,7 +190,15 @@ main.log
 
 The *_combined_counts.csv files are used for scoring. For Python analysis will need to combine counts for the selective (-HIS) and non-selective condition (+HIS). I do the scoring of these combined counts locally in python. Using spyder I then manually run each line of the score_HM.py or noz_score_HM.py to analyze the counts files. First change to your analysis directory which should contain your combined_counts.csv files for both selective and non-selective conditions. Within this directory should be a subdirectory with the .src files like param.py. Change into this directory and import all of the necessary modules. This is important, if you don't do this the code won't run. Also the param.py file that you use locally will be different from that you use on the cluster. Make sure to adjust it accordingly. Inside your scoring directory make a directory that has the summary files. Also make a ref directory as well. Also for combined counts files for the plus his condition you need to add plus somewhere in the file name and minus for the minus his samples.
 
-For Rstudio local analysis, which was actually used in the manuscript you can keep the up and down tag files seperate but they will need to be modified. This requires running the cluster_output_reformat_V2.R script before running analyze_cluster_output.R R script. Download all four counts.csv files (-HIS up, -HIS down, +HIS up and +HIS down) samples to a directory that will be used for scoring. Then just follow along with the R script and files in the directory included. The analyze_cluster_output.R describes which files are required. 
+For Rstudio local analysis, which was actually used in the manuscript you can keep the up and down tag files seperate but they will need to be modified. This requires running the cluster_output_reformat_V2.R script before running analyze_cluster_output.R R script. The count files will also be named appropriately in a format like the following: 
+<pre>
+1_-His_1_UpUp_QC_counts.tsv
+1_-His_1_DnDn_QC_counts.tsv
+1_+His_1_UpUp_QC_counts.tsv
+1_+His_1_DnDn_QC_counts.tsv
+</pre>
+
+Download all four counts.csv files (-HIS up, -HIS down, +HIS up and +HIS down) samples to a directory that will be used for scoring. Then just follow along with the R script and files in the directory included. The analyze_cluster_output.R describes which files are required. 
 	
 
 
