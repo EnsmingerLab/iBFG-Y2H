@@ -198,7 +198,7 @@ For Rstudio local analysis, which was actually used in the manuscript you can ke
 1_+His_1_DnDn_QC_counts.tsv
 </pre>
 
-Download all four counts.csv files (-HIS up, -HIS down, +HIS up and +HIS down) samples to a directory that will be used for scoring. Then just follow along with the R script and files in the directory included. The analyze_cluster_output.R describes which files are required. 
+Download all four counts.csv files (-HIS up, -HIS down, +HIS up and +HIS down) samples to a directory that will be used for scoring. Then just follow along with the R script and files in the directory included. You need to hhave the working directory be set to the directory with counts files, and you need to have a seperate directory with the barcodes_V3.csv, lib directory, and res directory. See examples provided. The analyze_cluster_output.R describes which files are required. 
 	
 
 
