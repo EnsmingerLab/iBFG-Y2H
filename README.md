@@ -188,14 +188,14 @@ main.log
 
 </pre>
 
-<p>The *_combined_counts.csv files are used for scoring. Obviously need a combined counts for the selective (-HIS) and non-selective condition (+HIS). I do the scoring of these combined counts locally in python or Rstudio (which requires running the cluster output reformat.R script before running analyze cluster output R script.R). Download combined counts.csv files for both samples to a directory that will be used for scoring. Using spyder I then manually run each line of the score_HM.py or noz_score_HM.py to analyze the counts files.</p>
+<p>The *_combined_counts.csv files are used for scoring. Obviously need a combined counts for the selective (-HIS) and non-selective condition (+HIS). I do the scoring of these combined counts locally in python or Rstudio (which requires running the cluster_output_reformat_V2.R script before running analyze_cluster_output.R R script). Download combined counts.csv files for both samples to a directory that will be used for scoring. Using spyder I then manually run each line of the score_HM.py or noz_score_HM.py to analyze the counts files.</p>
 
 <p>
   First change to your analysis directory which should contain your combined_counts.csv files for both selective and non-selective conditions. Within this directory should be a subdirectory with the .src files like param.py. Change into this directory and import all of the necessary modules. This is important, if you don't do this the code won't run. Also the param.py file that you use locally will be different from that you use on the cluster. Make sure to adjust it accordingly. Inside your scoring directory make a directory that has the summary files. Also make a ref directory as well. Also for combined counts files for the plus his condition you need to add plus somewhere in the file name and minus for the minus his samples.
 </p>
   <hr>
 <div style="margin-top: 100px; font-size: 8pt;text-align:center;">
-    <p><a href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a> The Ensminger Lab, University of Toronto, 2018</p>
+    <p><a href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a> The Ensminger Lab, University of Toronto, 2022</p>
   </div>
 
   <hr>
