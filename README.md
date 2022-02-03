@@ -5,7 +5,6 @@ iBFG-Y2H analysis code
 
 <!DOCTYPE html>
 <html>
-<title>Bioinformatics</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -13,25 +12,7 @@ iBFG-Y2H analysis code
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name="keywords" content="Harley, O'Connor, Mount, Bioinformatics, BFG, BFG-Y2H, reference, assembly, genomics, proteomics, sequencing, nanopore, analysis, Ensminger, research, legionella, pneumophila">
 
-
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-pre {
-    background: #eeeeee;
-    padding: 5px;
-    border: 1px dashed #bbbbbb;
-  }
-</style>
-<body class="w3-light-grey">
-
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:2800px;">
-
-    <!-- Right Column -->
-     <div class="w3-twothird">
-    
-      <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16" id='SQL'><i class="fa fa-database  fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>BFG-Y2H analysis using Roth Lab Oligo Pairs</h2>
+BFG-Y2H analysis using Roth Lab Oligo Pairs
         <p>Journal and walkthrough of how to analyze effector interactions using the Roth lab BFG-Y2H staggered oligo set</p>
   <h3 id='Request'>Directory Structure</h3>
   <p>On the guru cluster login and make a directory called 08_bfg_y2h. Within this directory several sub directories are made including src, summary, and ref.in the summary directory add your summary files as outlined in the next section. Ref should be left empty, but will hold the output fasta and bowtie index files made from your DB and AD barcodes. Src should contain all of the python scripts included in this github repository: <b>ADD LINK HERE</b>.
